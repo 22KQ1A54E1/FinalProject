@@ -1,0 +1,96 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Finalproject</title>
+    <meta charset="utf-8">
+    <meta name="viewport" 
+          content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" 
+          href=
+"https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src=
+"https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+    </script>
+    <script src=
+"https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js">
+    </script>
+</head>
+<style>
+    body{
+                 background-color: antiquewhite;
+               }
+     @media screen and  (min-width:550px){
+
+    body {
+         background-color: rgb(242, 238, 245);
+         }
+               video {
+    width: 100%;
+    height: auto;
+  }
+  @media (max-aspect-ratio: 16/9) {
+  video {
+    width: auto;
+    height: 100%;
+  }
+}
+}
+
+       
+        
+
+
+.blink {
+                animation: blinker 1.5s linear infinite;
+                color: red;
+                font-family: sans-serif;
+            }
+
+            @keyframes blinker {
+                50% {
+                    opacity: 0;
+                }
+            }
+</style>
+
+<body>
+
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid" >
+            <div class="navbar-header" >
+                <a class="navbar-brand" href="#" color="#fff">
+                    Vyshu's Furniture</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="navbar.html">Home</a></li>
+                <li><a href="Product.html">Products</a></li>
+                <li><a href="Services.html">Services</a></li>
+                <li><a href="AboutPage.html">About</a></li>
+                <li><a href="Contact page.html">Contact Us</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="sign up.html">
+                        <span class="glyphicon glyphicon-user"></span>
+                        SignUp</a></li>
+                <li><a href="Login.html">
+                        <span class="glyphicon glyphicon-log-in"></span>
+                        Login</a></li>
+            </ul>
+        </div>
+    </nav>
+    <h2>
+    <marquee behavior="scroll" direction="right" scrollamount="5" class="blink">Welcome To Vyshu's Furniture</marquee>
+    <marquee behavior="scroll" direction="left" scrollamount="5" class="blink">"A table,A chair,A bowl of fruit and a violin; what else does a man need to be Happy?"</marquee>
+    </h2>
+   
+    <div class="video-slider">
+        <video src="video.mp4" muted autoplay loop  </video>
+
+    </div>
+    <script src="slider-library.js"></script>
+    
+</body>
+
+</html>
